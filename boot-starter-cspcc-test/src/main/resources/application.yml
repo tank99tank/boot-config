@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+    
+cspcc:
+  namespace: 00000000-0000-0000-0000-000000000000
+  server-addr: localhost:8848
+  cluster-name: boot-config-test
+  ext-config[0]:
+    group: us-customs
+    data-id: common.yml
+    refresh: true
+              

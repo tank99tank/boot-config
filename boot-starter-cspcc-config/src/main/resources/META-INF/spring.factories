@@ -1,0 +1,9 @@
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+org.bobo.boot.cspcc.CspccConfigBootstrapConfiguration
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.bobo.boot.cspcc.CspccConfigAutoConfiguration,\
+org.bobo.boot.cspcc.endpoint.CspccConfigEndpointAutoConfiguration
+
+org.springframework.boot.diagnostics.FailureAnalyzer=\
+org.bobo.boot.cspcc.diagnostics.analyzer.CspccConnectionFailureAnalyzer
